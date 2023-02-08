@@ -1,0 +1,42 @@
+
+body{
+	min-height: 100vh;
+	background: #c9bdbd;
+}
+.testimonials{
+	position: relative;
+	max-width: 100%;
+}
+.swiper-slide{
+	background-position: center;
+	background-size: cover;
+	width: 350px;
+	margin: 0 20px;
+	background: #fff;
+	height: 55%;
+	margin: 50px;
+	
+}
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right
+{
+	background-image: none
+}
+.testimonials{
+	margin-top: 40px;
+}
+.description{
+	width: 60%;
+	height: 150px;
+}
+.container{
+	display: flex;
+}
+.button{
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+}
+.button button{
+	margin: 20px;
+}
